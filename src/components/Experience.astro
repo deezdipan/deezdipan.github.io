@@ -35,6 +35,19 @@ const { experience } = Astro.props;
         ) : (
           <p class="text-base text-neutral">{summary}</p>
         )}
+
+        {/* Add Download CV button only for The Allert Group */}
+        {company === "The Allert Group" && (
+          <div class="flex justify-center mt-4">
+  <a
+    href="/March 2026 Technical Resume.pdf"
+    download
+    class="inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+  >
+    Download CV
+  </a>
+</div>
+        )}
       </div>
     ))
   }
