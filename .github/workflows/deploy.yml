@@ -23,12 +23,10 @@ jobs:
         with:
           node-version: 22
       - run: npm install
-        working-directory: astro-zen
       - run: npm run build
-        working-directory: astro-zen
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./astro-zen/dist
+          path: ./dist
 
   deploy:
     needs: build
