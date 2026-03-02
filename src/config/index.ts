@@ -19,8 +19,8 @@ export const SITE_CONFIG: SiteConfig = {
     //{ text: "Youtube", href: "https://github.com/immois/astro-zen" },
     //{ text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/Portfolio Social Image 2026.jpg",
+  canonicalURL: "https://deezdipan.github.io",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -71,14 +71,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: "An AI-powered wellness companion built with React and Flask that integrates mood journaling, academic tracking, and persistent emotional memory to support student mental health.",
       //linkPreview: "/",
       //linkSource: "https://github.com/immois/astro-zen",
-      image: "/WaitLessCourses.png",
+      image: "/UniMind-Front-Page.png",
     },
     {
       name: "WaitLess Courses",
       summary: "A student-centric course discovery platform that simplifies the enrollment process by providing real-time waitlist data and intuitive search features to help students navigate University at Buffalo's course offerings more efficiently.",
       //linkPreview: "/",
       //linkSource: "https://github.com/immois/astro-zen",
-      image: "/UniMind-Front-Page.png",
+      image: "/WaitLessCourses.png", 
     },
     // {
     //   name: "ClonTagram",
