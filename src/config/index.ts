@@ -38,7 +38,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "June 2025",
       endDate: "August 2025",
       summary: [
-        "Earned promotion to Project Manager by architecting a 3-tier web platform for futureHR, integrating an AI chatbot toautomate employee inquiries and system navigation.",
+        "Earned promotion to Project Manager by architecting a 3-tier web platform for futureHR, integrating an AI chatbot to automate employee inquiries and system navigation.",
         "Streamlined HR workflows in Freshservice using rule-based ticket routing and system configurations, reducing manualhandling and increasing response efficiency.",
         "Engineered technical enablement content for platform integrations involving Workday, Salesforce, and Allbound, improving cross-departmental tool adoption.",
       ],
@@ -90,6 +90,8 @@ export const SITE_CONTENT: SiteContent = {
     //   //I deleted div containing the "Source" and "Preview" links from Projects.astro
     // },
   ],
+
+  
   about: {
     description: `
     Senior Computer Science student at UB and aspiring AI/ML specialist with a proven 
