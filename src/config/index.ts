@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Dipan Baral — Mobile & Web Developer",
+  title: "Dipan Baral — Software Engineer",
   author: "Dipan Baral",
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
