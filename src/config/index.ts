@@ -76,16 +76,14 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "UniMind",
       summary: "An AI-powered wellness companion built with React and Flask that integrates mood journaling, academic tracking, and persistent emotional memory to support student mental health.",
-      //linkPreview: "/",
-      //linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/deezdipan/UniMind-Dev",
       image: "/UniMind-Front-Page.png",
     },
     {
       name: "WaitLess Courses",
       summary: "A student-centric course discovery platform that simplifies the enrollment process by providing real-time waitlist data and intuitive search features to help students navigate University at Buffalo's course offerings more efficiently.",
-      //linkPreview: "/",
-      //linkSource: "https://github.com/immois/astro-zen",
-      image: "/WaitLessCourses.png", 
+      linkSource: "https://github.com/deezdipan/WaitLess-Courses",
+      image: "/WaitLessCourses.png",
     },
     // {
     //   name: "ClonTagram",
