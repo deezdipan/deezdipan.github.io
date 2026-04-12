@@ -12,7 +12,7 @@ const { projects } = Astro.props;
 
 <Section text="Featured Projects" href="projects">
   {
-  projects.map(({ name, summary, image }, index) => {
+  projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
       const top = 98 + index * 40;
       return (
         <div
@@ -25,7 +25,32 @@ const { projects } = Astro.props;
                 {name}
               </h3>
               <p class="text-base text-neutral">{summary}</p>
-              
+
+              {(linkPreview || linkSource) && (
+                <div class="mt-6 flex gap-3">
+                  {linkPreview && (
+                    <a
+                      href={linkPreview}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary transition hover:bg-primary/20"
+                    >
+                      Live Demo ↗
+                    </a>
+                  )}
+                  {linkSource && (
+                    <a
+                      href={linkSource}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 rounded-full border border-neutral/30 px-4 py-1.5 text-sm font-medium text-neutral transition hover:border-neutral/60 hover:text-white"
+                    >
+                      GitHub ↗
+                    </a>
+                  )}
+                </div>
+              )}
+
             </div>
             <div class="flex items-end justify-end overflow-hidden">
               <Image

@@ -67,6 +67,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
+      name: "Sprite-Me",
+      summary: "A full-stack Sprite intake tracker built with Angular 17 and Supabase. Features user authentication, drink logging with backdating, AI-powered intake insights via OpenRouter, achievement badges, shareable weekly stat cards, and PWA support for home screen installation.",
+      linkPreview: "https://sprite-me.vercel.app",
+      linkSource: "https://github.com/deezdipan/Sprite-Me",
+      image: "/sprite-me.png",
+    },
+    {
       name: "UniMind",
       summary: "An AI-powered wellness companion built with React and Flask that integrates mood journaling, academic tracking, and persistent emotional memory to support student mental health.",
       //linkPreview: "/",
